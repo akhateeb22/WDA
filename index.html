@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-col justify-around items-center h-screen w-full ">
+      <h4 class="font-montserrat text-3xl text-center"> Data Analysis Assignment </h4>
+      <div class="flex -space-x-2 m-4">
+        <a href="#" class="">
+          <img class="inline-block h-20 w-20 rounded-full object-cover ring-2 ring-white" src="https://images.unsplash.com/photo-1578305698944-874fa44d04c9?q=80&w=3776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Madrid" />
+        </a>
+        <a href="#" class="">
+          <img class="inline-block h-20 w-20 rounded-full object-cover ring-2 ring-white" src="https://cdn.homeandmoney.com/wp-content/uploads/2024/01/17114736/San-Rafael.webp" alt="San Rafael" />
+        </a>
+        <a href="#" class="">
+          <img class="inline-block h-20 w-20 rounded-full object-cover ring-2 ring-white" src="https://plus.unsplash.com/premium_photo-1681222670723-29a423252d8a?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="NYC" />
+        </a>
+        <a href="#" class="">
+          <img class="inline-block h-20 w-20 rounded-full object-cover ring-2 ring-white" src="https://res.cloudinary.com/dtljonz0f/image/upload/f_auto/q_auto/v1/gc-v1/singapore/Marina%20Bay%20Singapore.jpg" alt="Singapore" />
+        </a>
+        <a href="#" class="">
+          <img class="inline-block h-20 w-20 rounded-full object-cover ring-2 ring-white" src="https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paris" />
+        </a>
+      </div>
+      <div style="max-width: 40%;
+      margin: 15px auto 30px;">
+        <h4>في البدایة قمنا بتضمین المكاتب اللازمة والتي نحتاجھا، ثم قمنا بتحمیل وقراءة الداتاسيت المطلوبة، وفي النھایة قمنا بالتأكد أن الداتاسيت لا تحوي أي داتا مفقودة</h4>
+      </div>
+      <div class="flex flex-row justify-center items-center w-full px-10">
+        <div style="    flex-direction: column;
+           align-items: self-end;     width: 60%;" class="flex flex-nowrap justify-start items-start  w-full px-10">
+          <!-- First Table -->
+          <table style="width:100%" class="table-auto bg-white shadow-lg rounded-lg overflow-hidden m-2">
+            <thead class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+              <tr>
+                <th class="py-3 px-6 text-left">PRODUCTLINE</th>
+                <th class="py-3 px-6 text-left">Total Revenue</th>
+                <th class="py-3 px-6 text-left">Total Units Sold</th>
+                <th class="py-3 px-6 text-left">Avg Price Per Unit</th>
+                <th class="py-3 px-6 text-left">Total Orders</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-600 text-sm font-light">
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Classic Cars</td>
+                <td class="py-3 px-6 text-left">2968546.40</td>
+                <td class="py-3 px-6 text-left">33992</td>
+                <td class="py-3 px-6 text-left">87.330737</td>
+                <td class="py-3 px-6 text-left">199</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Vintage Cars</td>
+                <td class="py-3 px-6 text-left">1644212.05</td>
+                <td class="py-3 px-6 text-left">21069</td>
+                <td class="py-3 px-6 text-left">78.039397</td>
+                <td class="py-3 px-6 text-left">175</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Motorcycles</td>
+                <td class="py-3 px-6 text-left">971086.29</td>
+                <td class="py-3 px-6 text-left">11663</td>
+                <td class="py-3 px-6 text-left">83.262136</td>
+                <td class="py-3 px-6 text-left">72</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Trucks and Buses </td>
+                <td class="py-3 px-6 text-left">947355.18</td>
+                <td class="py-3 px-6 text-left">10777</td>
+                <td class="py-3 px-6 text-left">10777</td>
+                <td class="py-3 px-6 text-left">73</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Planes</td>
+                <td class="py-3 px-6 text-left">877942.21</td>
+                <td class="py-3 px-6 text-left">10727</td>
+                <td class="py-3 px-6 text-left">81.844151</td>
+                <td class="py-3 px-6 text-left">59</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Ships</td>
+                <td class="py-3 px-6 text-left">677940.40</td>
+                <td class="py-3 px-6 text-left">8127</td>
+                <td class="py-3 px-6 text-left">83.418285</td>
+                <td class="py-3 px-6 text-left">65</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Trains</td>
+                <td class="py-3 px-6 text-left">203804.26</td>
+                <td class="py-3 px-6 text-left">2712</td>
+                <td class="py-3 px-6 text-left">75.149063</td>
+                <td class="py-3 px-6 text-left">45</td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="text-align: right;
+          padding: 20px 10px;">
+<h4><span>Classic Car</span> من الجدول الاول: يجب على الشركة التركيز على المنتج </h4>  
+<h4><span>Vintage Cars</span> حيث أنه المنتج الأكثر طلباً في السوق والأكثر ربحاً للشركة والمنتج</h4>   
+<h4><span>Trains</span> حيث أنه ثاني أكثر منتج طلباً وربحاً للشركة والاستغناء عن المنتج</h4>  
+<h4>أنه المنتج الأقل طلباً والأقل ربحاً</h4>   </div>
+          <!-- Second Table -->
+          <table style="width:100%"  class="table-auto bg-white shadow-lg rounded-lg overflow-hidden m-2">
+            <thead class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+              <tr>
+                <th class="py-3 px-6 text-left">Month_Id</th>
+                <th class="py-3 px-6 text-left">Total Revenue</th>
+                <th class="py-3 px-6 text-left">Total Units Sold</th>
+                <th class="py-3 px-6 text-left">Avg Price Per Unit</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-600 text-sm font-light">
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">11</td>
+                <td class="py-3 px-6 text-left">1744682.45</td>
+                <td class="py-3 px-6 text-left">20857</td>
+                <td class="py-3 px-6 text-left">83.649732</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">10</td>
+                <td class="py-3 px-6 text-left">919036.70</td>
+                <td class="py-3 px-6 text-left">10998</td>
+                <td class="py-3 px-6 text-left">83.563984</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">5</td>
+                <td class="py-3 px-6 text-left">756812.91</td>
+                <td class="py-3 px-6 text-left">8992</td>
+                <td class="py-3 px-6 text-left">84.165137</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">2</td>
+                <td class="py-3 px-6 text-left">668328.15</td>
+                <td class="py-3 px-6 text-left">7903</td>
+                <td class="py-3 px-6 text-left">84.566386</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">1</td>
+                <td class="py-3 px-6 text-left">659582.29</td>
+                <td class="py-3 px-6 text-left">7997</td>
+                <td class="py-3 px-6 text-left">82.478416</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">3</td>
+                <td class="py-3 px-6 text-left">626186.73</td>
+                <td class="py-3 px-6 text-left">7585</td>
+                <td class="py-3 px-6 text-left">82.555930</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">4</td>
+                <td class="py-3 px-6 text-left">560334.46</td>
+                <td class="py-3 px-6 text-left">6704</td>
+                <td class="py-3 px-6 text-left">83.582109</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">8</td>
+                <td class="py-3 px-6 text-left">552132.91</td>
+                <td class="py-3 px-6 text-left">6538</td>
+                <td class="py-3 px-6 text-left">84.449818</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">12</td>
+                <td class="py-3 px-6 text-left">523173.14</td>
+                <td class="py-3 px-6 text-left">6293</td>
+                <td class="py-3 px-6 text-left">83.135729</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">9</td>
+                <td class="py-3 px-6 text-left">474900.12</td>
+                <td class="py-3 px-6 text-left">5681</td>
+                <td class="py-3 px-6 text-left">83.594459</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">7</td>
+                <td class="py-3 px-6 text-left">420973.34</td>
+                <td class="py-3 px-6 text-left">420973.34</td>
+                <td class="py-3 px-6 text-left">85.930463</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">6</td>
+                <td class="py-3 px-6 text-left">384743.59</td>
+                <td class="py-3 px-6 text-left">4620</td>
+                <td class="py-3 px-6 text-left">83.277833</td>
+              </tr>
+            </tbody>
+          </table>
+          <div style="text-align: right;
+          padding: 20px 10px;">
+          <h4>من الجدول الثاني: يجب على الشركة زيادة نسبة المبيعات ضمن شهر 11 حيث أنه الشهر الأكثر مبيعاً وربحاً للشركة والشهر 10 ثاني أكثر شهر مبيعاً وربحاً فيمكن عمل تخفيضات على الأسعار في هذه الأشهر لمحاولة تمديد هذه الفترة قدر الإمكان
+          </h4>
+          </div>
+          
+          <!-- Third Table -->
+          <table style="width:100%"  class="table-auto bg-white shadow-lg rounded-lg overflow-hidden m-2">
+            <thead class="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+              <tr>
+                <th  class="py-3 px-6 text-left">City</th>
+                <th class="py-3 px-6 text-left">Total Revenue</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-600 text-sm font-light">
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Madrid</td>
+                <td class="py-3 px-6 text-left">1082551.44</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">San Rafael</td>
+                <td class="py-3 px-6 text-left">654858.06</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">NYC</td>
+                <td class="py-3 px-6 text-left">560787.77</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Singapore</td>
+                <td class="py-3 px-6 text-left">288488.41</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-100">
+                <td class="py-3 px-6 text-left whitespace-nowrap">Paris</td>
+                <td class="py-3 px-6 text-left">268944.68</td>
+            </tbody>
+          </table>
+          <div style="text-align: right;
+          padding: 20px 10px; ">
+<h4><span>Paris و Singapore</span> من الجدول الثالث: نلاحظ تدني حجم المبيعات في كل من </h4>
+<h4>مقارنةً بباقي المدن ويمكن تحقيق ذلك عن طريق توفير عروض معينة ضمن هذه المدن أو نشر حملات إعلانية.</h4>
+   
+  </body>
+</html>
